@@ -4,8 +4,6 @@ df = pd.read_csv('dz.csv')
 
 print(df)
 
-print(df)
-
 group = df.groupby('City')['Salary'].mean()
 
 print(group)
